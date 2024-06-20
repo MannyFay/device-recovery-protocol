@@ -95,11 +95,52 @@ If a step doesn't work, proceed with the next step.
   - Turn off 'Focus status'
 - Screen Time:
   - Turn off 'App & Website Activity'
-- General - AirDrop & Handoff
+- General - AirDrop & Handoff:
   - Turn 'AirDrop' to 'No One'
-- General - Time Machine
+- General - Time Machine:
   - Set on 'When triggered manually'
+- Appearance:
+  - Set 'Appearance' on 'Dark'
+  - Set 'Accent colour' on 'Pink'
+  - Turn off 'Allow wallpaper tinting in windows'
+  - Set 'Show scroll bars' on 'When scrolling'
+  - Set 'Click in the scroll bar to' on 'Jump to the spot that's clicked'
+- Accessibility:
+  - Turn off 'Voice Over'
+  - Display:
+    - Turn on 'Reduce motion'
+    - Turn on 'Reduce transparancy'
+    - Set on 'Display contrast' a very little
+- Control Centre:
+  - Wi-Fi -> 'Show in Menu Bar'
+  - Bluetooth -> 'Show in Menu Bar'
+  - AirDrop -> 'Show in Menu Bar'
+  - Focus -> 'Show in Menu Bar'
+  - Stage Manager -> 'Don't show in Menu Bar'
+  - Sreen Mirroring -> 'Show in Menu Bar'
+  - Display -> 'Show in Menu Bar'
+  - Sound -> 'Show in Menu Bar'
+  - Now Playing -> 'Don't show in Menu Bar'
+  - Battery -> 'Don't show in Menu Bar' (AlDente will do this)
+  - Keyboard Brightness -> 'Show in Menu Bar'
+  - Clock Show Date -> 'Always'
+  - Spotlight -> 'Don't show in Menu Bar'
+  - Siri -> 'Don't show in Menu Bar'
+  - Time Machine -> 'Show in Menu Bar'
+ 
 
-**Stopped here because to have a look on Migration Assistant in Settings > General**
 
+ 
+
+
+
+- Notificate if a disk gets less then 10 GB free disk space
+ 
+
+
+
+
+
+**have a look on Migration Assistant in Settings > General**
+Maybe this works, if you didn't have erased the users partition before?!?
 
