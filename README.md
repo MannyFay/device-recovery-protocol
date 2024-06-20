@@ -100,6 +100,6 @@ If a step doesn't work, proceed with the next step.
 - General - Time Machine
   - Set on 'When triggered manually'
 
-**Stopped here because to have a watch on Migration Assistant in Settings > General**
+**Stopped here because to have a look on Migration Assistant in Settings > General**
 
 
