@@ -124,8 +124,8 @@ If a step doesn't work, proceed with the next step.
   - [ ] Allow applications downloaded from 'App Store and identified developers'
   - [ ] Allow accessories to connect: 'Ask for New Accessories'
   - [ ] FileVault -> 'On'
-- Desktop & Dock:
-  - [x] Set Dock size on 30 %
+- [x] Desktop & Dock:
+  - ✅ Set Dock size on 30 %
   - [x] Turn off 'Magnification'
   - [x] Automatically hide and show the Dock -> 'On'
   - [x] Animate opening applications -> 'Off'
