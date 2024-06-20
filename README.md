@@ -7,7 +7,7 @@ It is good to always have a second device that is made ready for your work.
 
 Next Steps:  
 [ ] Document all required settings  
-[ ] Try to create recovery playbook with Ansible  
+[ ] Try to create recovery playbook with Ansible -> fucked my brain by now. Switched to script actually..
 [ ] Try to create device set up playbook with Ansible like for Ubuntu  
 [ ] Put everything you can to password manager, GitHub and GitLab  
 [ ] Never beeing fucked again !!!  
@@ -126,16 +126,16 @@ If a step doesn't work, proceed with the next step.
   - FileVault -> 'On'
 - Desktop & Dock:
   - [ ] Set Dock size on 10 %
-  - Turn off 'Magnification'
-  - Automatically hide and show the Dock -> 'On'
-  - Animate opening applications -> 'Off'
-  - Stage Manager -> 'Off'
-  - Show recent apps in Stage Manager -> 'Off'
-  - Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
-  - Use iPhone widges -> 'Off'
-  - Ask to keep changes when closing documents -> 'On'
-  - Automatically rearrange Spaces based on most recent use -> 'Off'
-  - Disable all 'Hot corners'
+  - [ ] Turn off 'Magnification'
+  - [ ] Automatically hide and show the Dock -> 'On'
+  - [ ] Animate opening applications -> 'Off'
+  - [ ] Stage Manager -> 'Off'
+  - [ ] Show recent apps in Stage Manager -> 'Off'
+  - [ ] Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
+  - [ ] Use iPhone widges -> 'Off'
+  - [ ] Ask to keep changes when closing documents -> 'On'
+  - [ ] Automatically rearrange Spaces based on most recent use -> 'Off'
+  - [ ] Disable all 'Hot corners'
 - Displays:
   - Turn off 'automatically adjust brightnes'
   - Turn off 'True Tone'
