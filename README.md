@@ -55,16 +55,9 @@ If a step doesn't work, proceed with the next step.
 - Set main display on 'more space'
 - Set desktop background color on 'dark gray'
 - Set keyboard languages on US and DE
-- Turn off stage manager
 - Set up desktop switching short cuts
-- Remove default apps from dock
-- Add needed apps to dock
-- Set dock size to 'small'
-- Turn off 'dock magnification'
-- Auto hide dock
-- Turn off Mission Controlls 'Automatically rearrange Spaces based on most recent use'
-- Disable all 'Hot corners'
-- Remove all kinds of transparancy
+
+  
 - Set dark mode to menu bar
 - Auto hide menu bar
 - Increase key responsiveness speed
@@ -136,7 +129,25 @@ If a step doesn't work, proceed with the next step.
     - Share Mac Analytics -> 'Off'
     - Improve Siri & Dictation -> 'Off'
     - Share with app developers -> 'Off'
-    - Allow applications downloaded from 'App Store and identified developers'
+  - Allow applications downloaded from 'App Store and identified developers'
+  - Allow accessories to connect: 'Ask for New Accessories'
+  - FileVault -> 'On'
+- Desktop & Dock:
+  - Set Dock size on 10 %
+  - Turn off 'Magnification'
+  - Automatically hide and show the Dock -> 'On'
+  - Animate opening applications -> 'Off'
+  - Stage Manager -> 'Off'
+  - Show recent apps in Stage Manager -> 'Off'
+  - Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
+  - Use iPhone widges -> 'Off'
+  - Ask to keep changes when closing documents -> 'On'
+  - Automatically rearrange Spaces based on most recent use -> 'Off'
+  - Disable all 'Hot corners'
+
+
+- Remove default apps from dock
+- Add needed apps to dock
  
 
 
