@@ -1,0 +1,5 @@
+- name: Set Up Time Machine
+  become_user: "{{ username }}"
+  command: "{{ item }}"
+  with_items:
+    - "sudo tmutil disable"
