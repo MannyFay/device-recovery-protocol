@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  become: true
+  gather_facts: no
+  vars:
+    username: "manny"
+
+  tasks:
+    - include_tasks: tasks/system-settings/dock.yml
+    - include_tasks: tasks/system-settings/notifications.yml
+    - include_tasks: tasks/system-settings/sounds.yml
