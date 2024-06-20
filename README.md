@@ -19,7 +19,7 @@ If a step doesn't work, proceed with the next step.
   - Open Terminal
   - Delete files (`rm -f file-name`) and/or directories (`rm -rf directory-name`)
   - Restart device
-- Start 'Recovery Mode' and try to delete thins:
+- Start 'Recovery Mode' and try to delete things:
   - Shut down device
   - Press and hold the power button till 'Loading system options' message occurs
   - Press 'Options' and 'Continue'
@@ -27,6 +27,7 @@ If a step doesn't work, proceed with the next step.
   - Start 'Terminal' from the menu bar on the left side
   - Delete files (`rm -f file-name`) and/or directories (`rm -rf directory-name`)
   - Restart device
+- Try to recover from a Time Machine backup
 - Erase user volume partition (erases all your specific user settings too - if device setup is case sensitive, like described [here](https://github.com/MannyFay/set-up-dev-machine/blob/main/docs/set-up-macos.md), all your installed applications will stay)
   - Shut down device
   - Press and hold the power button till 'Loading system options' message occurs
@@ -78,4 +79,17 @@ If a step doesn't work, proceed with the next step.
   - Turn off all notifications of 'ScanSnap SCloudWatch'
   - Turn off all notifications of 'Tips'
   - Turn off all notifications of 'Wallet'
+- Sound:
+  - Mute 'Alert volume'
+  - Turn off 'Play sound on start up'
+  - Turn off 'Play user interface sound effects'
+  - Turn off 'Play feedback when volume is changed'
+- Focus:
+  - Create 'Work' focus
+  - Set schedule on weekdays from 6:00 am till 5:00 pm
+  - Allow work contacts
+  - Allow work applications notifications
+  - Turn off 'Share across devices'
+  - Turn off 'Focus status'
+  - 
 
