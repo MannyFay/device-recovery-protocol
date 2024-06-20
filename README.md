@@ -71,15 +71,15 @@ If a step doesn't work, proceed with the next step.
   - ✅ Turn off 'Play sound on start up'
   - ✅ Turn off 'Play user interface sound effects'
   - ✅ Turn off 'Play feedback when volume is changed'
-- Focus:
+- [ ] Focus:
   - [ ] Create 'Work' focus
   - [ ] Set schedule on weekdays from 6:00 am till 5:00 pm
   - [ ] Allow work contacts
   - [ ] Allow work applications notifications
   - [ ] Turn off 'Share across devices'
   - [ ] Turn off 'Focus status'
-- [ ] Screen Time:
-  - [ ] Turn off 'App & Website Activity'
+- ✅ Screen Time:
+  - ✅ Turn off 'App & Website Activity'
 - [ ] General - AirDrop & Handoff:
   - [ ] Turn 'AirDrop' to 'No One'
 - [ ] General - Time Machine:
