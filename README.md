@@ -41,4 +41,41 @@ If a step doesn't work, proceed with the next step.
   - Press 'OK' on the dialogue (don't change any setting in the dialogue)
   - Restart device and login
 
+## Steps after this
+- Disable TouchID to login into device
+- Increase mouse speed
+- Increase trackpad speed
+- Enable 'silent clicking' on trackpad
+- Enable 'tap to click' on trackpad
+- Turn off 'automatically adjust brightnes'
+- Turn off 'True Tone'
+- Set main display on 'more space'
+- Set desktop background color on 'dark gray'
+- Set keyboard languages on US and DE
+- Turn off stage manager
+- Set up desktop switching short cuts
+- Remove default apps from dock
+- Add needed apps to dock
+- Set dock size to 'small'
+- Turn off 'dock magnification'
+- Auto hide dock
+- Turn off Mission Controlls 'Automatically rearrange Spaces based on most recent use'
+- Disable all 'Hot corners'
+- Remove all kinds of transparancy
+- Set dark mode to menu bar
+- Auto hide menu bar
+- Increase key responsiveness speed
+- Notifications:
+  - Set 'Show previews' on 'Never'
+  - Turn off 'Allow notifications when the display is sleeping'
+  - Turn off 'Allow notifications when the screen is locked'
+  - Turn off 'Allow notifications when mirroring or sharing the display'
+  - Turn off all notifications of 'Game Center'
+  - Turn off all notifications of 'Mail'
+  - Turn off all notifications of 'Messages'
+  - Turn off all notifications of 'NordPass'
+  - Turn off all notifications of 'ScanSnap Home'
+  - Turn off all notifications of 'ScanSnap SCloudWatch'
+  - Turn off all notifications of 'Tips'
+  - Turn off all notifications of 'Wallet'
 
