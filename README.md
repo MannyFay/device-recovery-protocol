@@ -53,19 +53,6 @@ If a step doesn't work, proceed with the next step.
   - Restart device and login
 
 ## Steps after this
-- Increase mouse speed
-- Increase trackpad speed
-- Enable 'silent clicking' on trackpad
-- Enable 'tap to click' on trackpad
-
-
-
-- Set up desktop switching short cuts
-
-  
-- Set dark mode to menu bar
-- Auto hide menu bar
-- Increase key responsiveness speed
 - Notifications:
   - Set 'Show previews' on 'Never'
   - Turn off 'Allow notifications when the display is sleeping'
@@ -190,7 +177,26 @@ If a step doesn't work, proceed with the next step.
   - Add Orders to Wallet -> 'Off'
 - Keyboard:
   - Set keyboard languages on US and DE
-    
+- Mouse:
+  - Tracking speed -> 100 %
+  - Double-Click Speed -> 90 %
+  - Scrolling Speed -> 100 %
+  - Advanced: Pointer Accelleration -> 'On'
+- Trackpad:
+  - Tracking speed -> 100 %
+  - Silent clicking -> 'On'
+  - Tap to click -> 'On'
+
+
+
+
+
+- Set up desktop switching short cuts
+
+  
+- Set dark mode to menu bar
+- Auto hide menu bar
+- Increase key responsiveness speed
 
 
 
