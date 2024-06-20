@@ -127,6 +127,16 @@ If a step doesn't work, proceed with the next step.
   - Spotlight -> 'Don't show in Menu Bar'
   - Siri -> 'Don't show in Menu Bar'
   - Time Machine -> 'Show in Menu Bar'
+  - Automatically hide and show the menu bar: 'Always'
+  - Recent documents, applications and servers: 'None'
+- Siri & Spotlight:
+  - Ask Siri: 'Off'
+- Privacy & Security:
+  - Analytics & Improvements:
+    - Share Mac Analytics -> 'Off'
+    - Improve Siri & Dictation -> 'Off'
+    - Share with app developers -> 'Off'
+    - Allow applications downloaded from 'App Store and identified developers'
  
 
 
@@ -135,6 +145,7 @@ If a step doesn't work, proceed with the next step.
 
 
 - Notificate if a disk gets less then 10 GB free disk space
+- Delete bin every 14 days automatically
  
 
 
