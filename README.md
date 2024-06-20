@@ -27,7 +27,7 @@ If a step doesn't work, proceed with the next step.
   - Start 'Terminal' from the menu bar on the left side
   - Delete files (`rm -f file-name`) and/or directories (`rm -rf directory-name`)
   - Restart device
-- Erase user volume partition (erases all your specific user settings too)
+- Erase user volume partition (erases all your specific user settings too - if device setup is case sensitive, like described [here](https://github.com/MannyFay/set-up-dev-machine/blob/main/docs/set-up-macos.md), all your installed applications will stay)
   - Shut down device
   - Press and hold the power button till 'Loading system options' message occurs
   - Press 'Options' and 'Continue'
