@@ -82,8 +82,8 @@ If a step doesn't work, proceed with the next step.
   - ✅ Turn off 'App & Website Activity'
 - ✅ General - AirDrop & Handoff:
   - ✅ Turn 'AirDrop' to 'No One'
-- [ ] General - Time Machine:
-  - [ ] Set on 'When triggered manually'
+- ✅ General - Time Machine:
+  - ✅ Set on 'When triggered manually'
 - [ ] Appearance:
   - [ ] Set 'Appearance' on 'Dark'
   - [ ] Set 'Accent colour' on 'Pink'
