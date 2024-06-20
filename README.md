@@ -1,4 +1,8 @@
-# Recovery Protocol
+# Device Recovery Protocol
+This repository is under construction.  
+It is only for my purposes and only tested in my environments. There is absolutely no garantuee, that it works for you.  
+I've made it public, that I can read and use it from everywhere just by using a browser to get my dev environment working again as fast as possible.
+
 ## macOS
 ### P:
 Device is ran into 'no more space available' state.
