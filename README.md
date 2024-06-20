@@ -3,6 +3,8 @@ This repository is under construction.
 It is only for my purposes and only tested in my environments. There is absolutely no garantuee, that it works for you.  
 I've made it public, that I can read and use it from everywhere just by using a browser to get my dev environment working again as fast as possible.
 
+It is good to always have a second device that is made ready for your work.
+
 ## macOS
 ### P:
 Device is ran into 'no more space available' state.
@@ -28,7 +30,7 @@ If a step doesn't work, proceed with the next step.
   - Delete files (`rm -f file-name`) and/or directories (`rm -rf directory-name`)
   - Restart device
 - Try to recover from a Time Machine backup
-- Erase user volume partition (erases all your specific user settings too - if device setup is case sensitive, like described [here](https://github.com/MannyFay/set-up-dev-machine/blob/main/docs/set-up-macos.md), all your installed applications will stay)
+- Erase user volume partition (erases all your specific user settings too - if device setup is case sensitive, like described [here](https://github.com/MannyFay/set-up-dev-machine/blob/main/docs/set-up-macos.md), all your installed applications will stay - all your short cut settings will be gone)
   - Shut down device
   - Press and hold the power button till 'Loading system options' message occurs
   - Press 'Options' and 'Continue'
@@ -91,5 +93,13 @@ If a step doesn't work, proceed with the next step.
   - Allow work applications notifications
   - Turn off 'Share across devices'
   - Turn off 'Focus status'
-  - 
+- Screen Time:
+  - Turn off 'App & Website Activity'
+- General - AirDrop & Handoff
+  - Turn 'AirDrop' to 'No One'
+- General - Time Machine
+  - Set on 'When triggered manually'
+
+**Stopped here because to have a watch on Migration Assistant in Settings > General**
+
 
