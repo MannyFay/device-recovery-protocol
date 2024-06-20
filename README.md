@@ -80,8 +80,8 @@ If a step doesn't work, proceed with the next step.
   - [ ] Turn off 'Focus status'
 - ✅ Screen Time:
   - ✅ Turn off 'App & Website Activity'
-- [ ] General - AirDrop & Handoff:
-  - [ ] Turn 'AirDrop' to 'No One'
+- ✅ General - AirDrop & Handoff:
+  - ✅ Turn 'AirDrop' to 'No One'
 - [ ] General - Time Machine:
   - [ ] Set on 'When triggered manually'
 - [ ] Appearance:
@@ -210,7 +210,7 @@ If a step doesn't work, proceed with the next step.
 
 
  
-
+- [ ] Turn off trackpad if mouse is connected
 
 
 - [ ] Notificate if a disk gets less then 10 GB free disk space
