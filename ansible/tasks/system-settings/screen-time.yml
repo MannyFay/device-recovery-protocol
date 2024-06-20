@@ -1,4 +1,4 @@
-- name: Set Up Notifications
+- name: Set Up Screen Time
   become_user: "{{ username }}"
   command: "{{ item }}"
   with_items:
