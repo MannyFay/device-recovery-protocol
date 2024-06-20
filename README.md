@@ -6,11 +6,11 @@ I've made it public, that I can read and use it from everywhere just by using a 
 It is good to always have a second device that is made ready for your work.
 
 Next Steps:  
-[ ] Document all required settings  
-[ ] Try to create recovery playbook with Ansible
-[ ] Try to create device set up playbook with Ansible like for Ubuntu  
-[ ] Put everything you can to password manager, GitHub and GitLab  
-[ ] Never beeing fucked again !!!  
+- [ ] Document all required settings  
+- [ ] Try to create recovery playbook with Ansible
+- [ ] Try to create device set up playbook with Ansible like for Ubuntu  
+- [ ] Put everything you can to password manager, GitHub and GitLab  
+- [ ] Never beeing fucked again !!!  
 
 
 ## macOS
@@ -54,76 +54,76 @@ If a step doesn't work, proceed with the next step.
 
 ## Steps after this
 - Notifications:
-  - Set 'Show previews' on 'Never'
-  - Turn off 'Allow notifications when the display is sleeping'
-  - Turn off 'Allow notifications when the screen is locked'
-  - Turn off 'Allow notifications when mirroring or sharing the display'
-  - Turn off all notifications of 'Game Center'
-  - Turn off all notifications of 'Mail'
-  - Turn off all notifications of 'Messages'
-  - Turn off all notifications of 'NordPass'
-  - Turn off all notifications of 'ScanSnap Home'
-  - Turn off all notifications of 'ScanSnap SCloudWatch'
-  - Turn off all notifications of 'Tips'
-  - Turn off all notifications of 'Wallet'
+  - [ ] Set 'Show previews' on 'Never'
+  - [ ] Turn off 'Allow notifications when the display is sleeping'
+  - [ ] Turn off 'Allow notifications when the screen is locked'
+  - [ ] Turn off 'Allow notifications when mirroring or sharing the display'
+  - [ ] Turn off all notifications of 'Game Center'
+  - [ ] Turn off all notifications of 'Mail'
+  - [ ] Turn off all notifications of 'Messages'
+  - [ ] Turn off all notifications of 'NordPass'
+  - [ ] Turn off all notifications of 'ScanSnap Home'
+  - [ ] Turn off all notifications of 'ScanSnap SCloudWatch'
+  - [ ] Turn off all notifications of 'Tips'
+  - [ ] Turn off all notifications of 'Wallet'
 - Sound:
-  - Mute 'Alert volume'
-  - Turn off 'Play sound on start up'
-  - Turn off 'Play user interface sound effects'
-  - Turn off 'Play feedback when volume is changed'
+  - [ ] Mute 'Alert volume'
+  - [ ] Turn off 'Play sound on start up'
+  - [ ] Turn off 'Play user interface sound effects'
+  - [ ] Turn off 'Play feedback when volume is changed'
 - Focus:
-  - Create 'Work' focus
-  - Set schedule on weekdays from 6:00 am till 5:00 pm
-  - Allow work contacts
-  - Allow work applications notifications
-  - Turn off 'Share across devices'
-  - Turn off 'Focus status'
-- Screen Time:
-  - Turn off 'App & Website Activity'
-- General - AirDrop & Handoff:
-  - Turn 'AirDrop' to 'No One'
-- General - Time Machine:
-  - Set on 'When triggered manually'
-- Appearance:
-  - Set 'Appearance' on 'Dark'
-  - Set 'Accent colour' on 'Pink'
-  - Turn off 'Allow wallpaper tinting in windows'
-  - Set 'Show scroll bars' on 'When scrolling'
-  - Set 'Click in the scroll bar to' on 'Jump to the spot that's clicked'
-- Accessibility:
-  - Turn off 'Voice Over'
-  - Display:
-    - Turn on 'Reduce motion'
-    - Turn on 'Reduce transparancy'
-    - Set on 'Display contrast' a very little
-- Control Centre:
-  - Wi-Fi -> 'Show in Menu Bar'
-  - Bluetooth -> 'Show in Menu Bar'
-  - AirDrop -> 'Show in Menu Bar'
-  - Focus -> 'Show in Menu Bar'
-  - Stage Manager -> 'Don't show in Menu Bar'
-  - Sreen Mirroring -> 'Show in Menu Bar'
-  - Display -> 'Show in Menu Bar'
-  - Sound -> 'Show in Menu Bar'
-  - Now Playing -> 'Don't show in Menu Bar'
-  - Battery -> 'Don't show in Menu Bar' (AlDente will do this)
-  - Keyboard Brightness -> 'Show in Menu Bar'
-  - Clock Show Date -> 'Always'
-  - Spotlight -> 'Don't show in Menu Bar'
-  - Siri -> 'Don't show in Menu Bar'
-  - Time Machine -> 'Show in Menu Bar'
-  - Automatically hide and show the menu bar: 'Always'
-  - Recent documents, applications and servers: 'None'
-- Siri & Spotlight:
-  - Ask Siri: 'Off'
-- Privacy & Security:
-  - Analytics & Improvements:
-    - Share Mac Analytics -> 'Off'
-    - Improve Siri & Dictation -> 'Off'
-    - Share with app developers -> 'Off'
-  - Allow applications downloaded from 'App Store and identified developers'
-  - Allow accessories to connect: 'Ask for New Accessories'
-  - FileVault -> 'On'
+  - [ ] Create 'Work' focus
+  - [ ] Set schedule on weekdays from 6:00 am till 5:00 pm
+  - [ ] Allow work contacts
+  - [ ] Allow work applications notifications
+  - [ ] Turn off 'Share across devices'
+  - [ ] Turn off 'Focus status'
+- [ ] Screen Time:
+  - [ ] Turn off 'App & Website Activity'
+- [ ] General - AirDrop & Handoff:
+  - [ ] Turn 'AirDrop' to 'No One'
+- [ ] General - Time Machine:
+  - [ ] Set on 'When triggered manually'
+- [ ] Appearance:
+  - [ ] Set 'Appearance' on 'Dark'
+  - [ ] Set 'Accent colour' on 'Pink'
+  - [ ] Turn off 'Allow wallpaper tinting in windows'
+  - [ ] Set 'Show scroll bars' on 'When scrolling'
+  - [ ] Set 'Click in the scroll bar to' on 'Jump to the spot that's clicked'
+- [ ] Accessibility:
+  - [ ] Turn off 'Voice Over'
+  - [ ] Display:
+    - [ ] Turn on 'Reduce motion'
+    - [ ] Turn on 'Reduce transparancy'
+    - [ ] Set on 'Display contrast' a very little
+- [ ] Control Centre:
+  - [ ] Wi-Fi -> 'Show in Menu Bar'
+  - [ ] Bluetooth -> 'Show in Menu Bar'
+  - [ ] AirDrop -> 'Show in Menu Bar'
+  - [ ] Focus -> 'Show in Menu Bar'
+  - [ ] Stage Manager -> 'Don't show in Menu Bar'
+  - [ ] Sreen Mirroring -> 'Show in Menu Bar'
+  - [ ] Display -> 'Show in Menu Bar'
+  - [ ] Sound -> 'Show in Menu Bar'
+  - [ ] Now Playing -> 'Don't show in Menu Bar'
+  - [ ] Battery -> 'Don't show in Menu Bar' (AlDente will do this)
+  - [ ] Keyboard Brightness -> 'Show in Menu Bar'
+  - [ ] Clock Show Date -> 'Always'
+  - [ ] Spotlight -> 'Don't show in Menu Bar'
+  - [ ] Siri -> 'Don't show in Menu Bar'
+  - [ ] Time Machine -> 'Show in Menu Bar'
+  - [ ] Automatically hide and show the menu bar: 'Always'
+  - [ ] Recent documents, applications and servers: 'None'
+- [ ] Siri & Spotlight:
+  - [ ] Ask Siri: 'Off'
+- [ ] Privacy & Security:
+  - [ ] Analytics & Improvements:
+    - [ ] Share Mac Analytics -> 'Off'
+    - [ ] Improve Siri & Dictation -> 'Off'
+    - [ ] Share with app developers -> 'Off'
+  - [ ] Allow applications downloaded from 'App Store and identified developers'
+  - [ ] Allow accessories to connect: 'Ask for New Accessories'
+  - [ ] FileVault -> 'On'
 - Desktop & Dock:
   - [x] Set Dock size on 30 %
   - [x] Turn off 'Magnification'
@@ -136,67 +136,67 @@ If a step doesn't work, proceed with the next step.
   - [x] Ask to keep changes when closing documents -> 'On'
   - [x] Automatically rearrange Spaces based on most recent use -> 'Off'
   - [x] Disable all 'Hot corners'
-- Displays:
-  - Turn off 'automatically adjust brightnes'
-  - Turn off 'True Tone'
-  - Set main display on 'more space'
-  - Show resolutions as list -> 'On'
-- Wallpaper:
-  - Set desktop background color on '#191B1C'
-- Lock Screen:
-  - Start Screen Saver when inactive -> 'Never'
-  - Turn display off on battery when inactive -> 'For 10 minutes'
-  - Turn display off on power adapter when inactive -> 'For 10 minutes'
-  - Require password after screen saver begins or display is turned off -> 'Immediately'
-  - Show large clock -> 'Never'
-  - Show username and photo -> 'Off'
-  - Show password hints -> 'Off'
-  - Show message when locked -> 'Off'
-  - Login window shows -> check 'Name and password'
-  - Show the Sleep, Restart and Shut Down buttons -> 'Off'
-  - Accessibillity Options:
-    - VoiceOver -> 'Off'
-    - Zoom -> 'Off'
-    - Accessibillity Keyboard -> 'Off'
-    - Sticky Keys -> 'Off'
-    - Slow Keys -> 'Off'
-    - Mouse Keys -> 'Off'
-- Touch ID & Password:
-  - Use Touch ID to unlock your Mac -> 'Off'
-  - Use Touch ID for fast user switching -> 'Off'
-- Users & Groups:
-  - Guest User -> 'Off'
-- Passwords:
-  - Use passwords and passkeys from Keychain -> 'Off'
-  - Verification Codes:
-    - Delete After Use -> 'On'
-- Internet Accounts:
-- Game Center:
-  - Game Center -> 'Off'
-- Wallet & Apple Pay:
-  - Add Orders to Wallet -> 'Off'
-- Keyboard:
-  - Set keyboard languages on US and DE
-- Mouse:
-  - Tracking speed -> 100 %
-  - Double-Click Speed -> 90 %
-  - Scrolling Speed -> 100 %
-  - Advanced: Pointer Accelleration -> 'On'
-- Trackpad:
-  - Tracking speed -> 100 %
-  - Silent clicking -> 'On'
-  - Tap to click -> 'On'
+- [ ] Displays:
+  - [ ] Turn off 'automatically adjust brightnes'
+  - [ ] Turn off 'True Tone'
+  - [ ] Set main display on 'more space'
+  - [ ] Show resolutions as list -> 'On'
+- [ ] Wallpaper:
+  - [ ] Set desktop background color on '#191B1C'
+- [ ] Lock Screen:
+  - [ ] Start Screen Saver when inactive -> 'Never'
+  - [ ] Turn display off on battery when inactive -> 'For 10 minutes'
+  - [ ] Turn display off on power adapter when inactive -> 'For 10 minutes'
+  - [ ] Require password after screen saver begins or display is turned off -> 'Immediately'
+  - [ ] Show large clock -> 'Never'
+  - [ ] Show username and photo -> 'Off'
+  - [ ] Show password hints -> 'Off'
+  - [ ] Show message when locked -> 'Off'
+  - [ ] Login window shows -> check 'Name and password'
+  - [ ] Show the Sleep, Restart and Shut Down buttons -> 'Off'
+  - [ ] Accessibillity Options:
+    - [ ] VoiceOver -> 'Off'
+    - [ ] Zoom -> 'Off'
+    - [ ] Accessibillity Keyboard -> 'Off'
+    - [ ] Sticky Keys -> 'Off'
+    - [ ] Slow Keys -> 'Off'
+    - [ ] Mouse Keys -> 'Off'
+- [ ] Touch ID & Password:
+  - [ ] Use Touch ID to unlock your Mac -> 'Off'
+  - [ ] Use Touch ID for fast user switching -> 'Off'
+- [ ] Users & Groups:
+  - [ ] Guest User -> 'Off'
+- [ ] Passwords:
+  - [ ] Use passwords and passkeys from Keychain -> 'Off'
+  - [ ] Verification Codes:
+    - [ ] Delete After Use -> 'On'
+- [ ] Internet Accounts:
+- [ ] Game Center:
+  - [ ] Game Center -> 'Off'
+- [ ] Wallet & Apple Pay:
+  - [ ] Add Orders to Wallet -> 'Off'
+- [ ] Keyboard:
+  - [ ] Set keyboard languages on US and DE
+- [ ] Mouse:
+  - [ ] Tracking speed -> 100 %
+  - [ ] Double-Click Speed -> 90 %
+  - [ ] Scrolling Speed -> 100 %
+  - [ ] Advanced: Pointer Accelleration -> 'On'
+- [ ] Trackpad:
+  - [ ] Tracking speed -> 100 %
+  - [ ] Silent clicking -> 'On'
+  - [ ] Tap to click -> 'On'
 
 
-- turn of writing . if pressing two times space
-- show hidden files by default
+- [ ] turn of writing . if pressing two times space
+- [ ] show hidden files by default
 
-- Set up desktop switching short cuts
+- [ ] Set up desktop switching short cuts
 
   
-- Set dark mode to menu bar
-- Auto hide menu bar
-- Increase key responsiveness speed
+- [ ] Set dark mode to menu bar
+- [ ] Auto hide menu bar
+- [ ] Increase key responsiveness speed
 
 
 
@@ -204,8 +204,8 @@ If a step doesn't work, proceed with the next step.
 
 
 
-- Remove default apps from dock
-- Add needed apps to dock
+- [ ] Remove default apps from dock
+- [ ] Add needed apps to dock
  
 
 
@@ -213,10 +213,14 @@ If a step doesn't work, proceed with the next step.
 
 
 
-- Notificate if a disk gets less then 10 GB free disk space
-- Delete bin every 14 days automatically
+- [ ] Notificate if a disk gets less then 10 GB free disk space
+- [ ] Delete bin every 14 days automatically
  
 
+- [ ] Safari
+  - [ ] Set google as start page
+  - [ ] is it possible to install extensions with scripts?
+  - [ ] Show bookmarks bar
 
 
 
