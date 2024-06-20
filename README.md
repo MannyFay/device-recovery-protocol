@@ -50,10 +50,8 @@ If a step doesn't work, proceed with the next step.
 - Increase trackpad speed
 - Enable 'silent clicking' on trackpad
 - Enable 'tap to click' on trackpad
-- Turn off 'automatically adjust brightnes'
-- Turn off 'True Tone'
-- Set main display on 'more space'
-- Set desktop background color on 'dark gray'
+
+
 - Set keyboard languages on US and DE
 - Set up desktop switching short cuts
 
@@ -144,6 +142,16 @@ If a step doesn't work, proceed with the next step.
   - Ask to keep changes when closing documents -> 'On'
   - Automatically rearrange Spaces based on most recent use -> 'Off'
   - Disable all 'Hot corners'
+- Displays:
+  - Turn off 'automatically adjust brightnes'
+  - Turn off 'True Tone'
+  - Set main display on 'more space'
+  - Show resolutions as list -> 'On'
+- Wallpaper:
+  - Set desktop background color on 'dark gray'
+
+
+
 
 
 - Remove default apps from dock
