@@ -148,7 +148,12 @@ If a step doesn't work, proceed with the next step.
   - Set main display on 'more space'
   - Show resolutions as list -> 'On'
 - Wallpaper:
-  - Set desktop background color on 'dark gray'
+  - Set desktop background color on '#191B1C'
+- Lock Screen:
+  - Start Screen Saver when inactive -> 'Never'
+  - Turn display off on battery when inactive -> 'For 10 minutes'
+  - Turn display off on power adapter when inactive -> 'For 10 minutes'
+  - Require password after screen saver begins or display is turned off -> 'Immediately'
 
 
 
