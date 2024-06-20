@@ -6,7 +6,7 @@ I've made it public, that I can read and use it from everywhere just by using a 
 It is good to always have a second device that is made ready for your work.
 
 Next Steps:  
-- [ ] Document all required settings  
+- ✅ Document all required settings  
 - [ ] Try to create recovery playbook with Ansible
 - [ ] Try to create device set up playbook with Ansible like for Ubuntu  
 - [ ] Put everything you can to password manager, GitHub and GitLab  
@@ -37,7 +37,7 @@ If a step doesn't work, proceed with the next step.
   - Start 'Terminal' from the menu bar on the left side
   - Delete files (`rm -f file-name`) and/or directories (`rm -rf directory-name`)
   - Restart device
-- Try to recover from a Time Machine backup
+- Try to recover from a Time Machine backup (if you changed something on the users partition, this does't work)
 - Erase user volume partition (erases all your specific user settings too - if device setup is case sensitive, like described [here](https://github.com/MannyFay/set-up-dev-machine/blob/main/docs/set-up-macos.md), all your installed applications will stay - all your short cut settings will be gone)
   - Shut down device
   - Press and hold the power button till 'Loading system options' message occurs
@@ -124,18 +124,18 @@ If a step doesn't work, proceed with the next step.
   - [ ] Allow applications downloaded from 'App Store and identified developers'
   - [ ] Allow accessories to connect: 'Ask for New Accessories'
   - [ ] FileVault -> 'On'
-- [x] Desktop & Dock:
-  ✅ Set Dock size on 30 %
-  - [x] Turn off 'Magnification'
-  - [x] Automatically hide and show the Dock -> 'On'
-  - [x] Animate opening applications -> 'Off'
-  - [x] Stage Manager -> 'Off'
-  - [x] Show recent apps in Stage Manager -> 'Off'
-  - [x] Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
-  - [x] Use iPhone widges -> 'Off'
-  - [x] Ask to keep changes when closing documents -> 'On'
-  - [x] Automatically rearrange Spaces based on most recent use -> 'Off'
-  - [x] Disable all 'Hot corners'
+- ✅ Desktop & Dock:
+  - ✅ Set Dock size on 30 %
+  - ✅ Turn off 'Magnification'
+  - ✅ Automatically hide and show the Dock -> 'On'
+  - ✅ Animate opening applications -> 'Off'
+  - ✅ Stage Manager -> 'Off'
+  - ✅ Show recent apps in Stage Manager -> 'Off'
+  - ✅ Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
+  - ✅ Use iPhone widges -> 'Off'
+  - ✅ Ask to keep changes when closing documents -> 'On'
+  - ✅ Automatically rearrange Spaces based on most recent use -> 'Off'
+  - ✅ Disable all 'Hot corners'
 - [ ] Displays:
   - [ ] Turn off 'automatically adjust brightnes'
   - [ ] Turn off 'True Tone'
