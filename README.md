@@ -125,11 +125,11 @@ If a step doesn't work, proceed with the next step.
   - Allow accessories to connect: 'Ask for New Accessories'
   - FileVault -> 'On'
 - Desktop & Dock:
-  - [ ] Set Dock size on 10 %
-  - [ ] Turn off 'Magnification'
-  - [ ] Automatically hide and show the Dock -> 'On'
-  - [ ] Animate opening applications -> 'Off'
-  - [ ] Stage Manager -> 'Off'
+  - [x] Set Dock size on 30 %
+  - [x] Turn off 'Magnification'
+  - [x] Automatically hide and show the Dock -> 'On'
+  - [x] Animate opening applications -> 'Off'
+  - [X] Stage Manager -> 'Off'
   - [ ] Show recent apps in Stage Manager -> 'Off'
   - [ ] Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
   - [ ] Use iPhone widges -> 'Off'
