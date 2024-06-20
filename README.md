@@ -125,7 +125,7 @@ If a step doesn't work, proceed with the next step.
   - [ ] Allow accessories to connect: 'Ask for New Accessories'
   - [ ] FileVault -> 'On'
 - [x] Desktop & Dock:
-  - ✅ Set Dock size on 30 %
+  ✅ Set Dock size on 30 %
   - [x] Turn off 'Magnification'
   - [x] Automatically hide and show the Dock -> 'On'
   - [x] Animate opening applications -> 'Off'
