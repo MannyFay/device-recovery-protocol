@@ -1,4 +1,5 @@
 - name: Set Up Sounds
+  become: true
   become_user: "{{ username }}"
   command: "{{ item }}"
   with_items:
