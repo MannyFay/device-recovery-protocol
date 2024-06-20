@@ -53,14 +53,13 @@ If a step doesn't work, proceed with the next step.
   - Restart device and login
 
 ## Steps after this
-- Disable TouchID to login into device
 - Increase mouse speed
 - Increase trackpad speed
 - Enable 'silent clicking' on trackpad
 - Enable 'tap to click' on trackpad
 
 
-- Set keyboard languages on US and DE
+
 - Set up desktop switching short cuts
 
   
@@ -162,6 +161,38 @@ If a step doesn't work, proceed with the next step.
   - Turn display off on battery when inactive -> 'For 10 minutes'
   - Turn display off on power adapter when inactive -> 'For 10 minutes'
   - Require password after screen saver begins or display is turned off -> 'Immediately'
+  - Show large clock -> 'Never'
+  - Show username and photo -> 'Off'
+  - Show password hints -> 'Off'
+  - Show message when locked -> 'Off'
+  - Login window shows -> check 'Name and password'
+  - Show the Sleep, Restart and Shut Down buttons -> 'Off'
+  - Accessibillity Options:
+    - VoiceOver -> 'Off'
+    - Zoom -> 'Off'
+    - Accessibillity Keyboard -> 'Off'
+    - Sticky Keys -> 'Off'
+    - Slow Keys -> 'Off'
+    - Mouse Keys -> 'Off'
+- Touch ID & Password:
+  - Use Touch ID to unlock your Mac -> 'Off'
+  - Use Touch ID for fast user switching -> 'Off'
+- Users & Groups:
+  - Guest User -> 'Off'
+- Passwords:
+  - Use passwords and passkeys from Keychain -> 'Off'
+  - Verification Codes:
+    - Delete After Use -> 'On'
+- Internet Accounts:
+- Game Center:
+  - Game Center -> 'Off'
+- Wallet & Apple Pay:
+  - Add Orders to Wallet -> 'Off'
+- Keyboard:
+  - Set keyboard languages on US and DE
+    
+
+
 
 
 
