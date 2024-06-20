@@ -129,13 +129,13 @@ If a step doesn't work, proceed with the next step.
   - [x] Turn off 'Magnification'
   - [x] Automatically hide and show the Dock -> 'On'
   - [x] Animate opening applications -> 'Off'
-  - [X] Stage Manager -> 'Off'
-  - [ ] Show recent apps in Stage Manager -> 'Off'
-  - [ ] Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
-  - [ ] Use iPhone widges -> 'Off'
-  - [ ] Ask to keep changes when closing documents -> 'On'
-  - [ ] Automatically rearrange Spaces based on most recent use -> 'Off'
-  - [ ] Disable all 'Hot corners'
+  - [x] Stage Manager -> 'Off'
+  - [x] Show recent apps in Stage Manager -> 'Off'
+  - [x] Show Widges -> uncheck 'On Desktop', uncheck 'In Stage Manager'
+  - [x] Use iPhone widges -> 'Off'
+  - [x] Ask to keep changes when closing documents -> 'On'
+  - [x] Automatically rearrange Spaces based on most recent use -> 'Off'
+  - [x] Disable all 'Hot corners'
 - Displays:
   - Turn off 'automatically adjust brightnes'
   - Turn off 'True Tone'
@@ -188,7 +188,7 @@ If a step doesn't work, proceed with the next step.
   - Tap to click -> 'On'
 
 
-
+- turn of writing . if pressing two times space
 - show hidden files by default
 
 - Set up desktop switching short cuts
