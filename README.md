@@ -53,7 +53,7 @@ If a step doesn't work, proceed with the next step.
   - Restart device and login
 
 ## Steps after this
-- Notifications:
+- ✅ Notifications:
   - ✅ Set 'Show previews' on 'Never'
   - ✅ Turn off 'Allow notifications when the display is sleeping'
   - ✅ Turn off 'Allow notifications when the screen is locked'
@@ -66,11 +66,11 @@ If a step doesn't work, proceed with the next step.
   - ✅ Turn off all notifications of 'ScanSnap SCloudWatch'
   - ✅ Turn off all notifications of 'Tips'
   - ✅ Turn off all notifications of 'Wallet'
-- Sound:
-  - [ ] Mute 'Alert volume'
-  - [ ] Turn off 'Play sound on start up'
-  - [ ] Turn off 'Play user interface sound effects'
-  - [ ] Turn off 'Play feedback when volume is changed'
+- ✅ Sound:
+  - ✅ Mute 'Alert volume'
+  - ✅ Turn off 'Play sound on start up'
+  - ✅ Turn off 'Play user interface sound effects'
+  - ✅ Turn off 'Play feedback when volume is changed'
 - Focus:
   - [ ] Create 'Work' focus
   - [ ] Set schedule on weekdays from 6:00 am till 5:00 pm
