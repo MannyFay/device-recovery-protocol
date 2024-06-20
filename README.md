@@ -189,7 +189,7 @@ If a step doesn't work, proceed with the next step.
 
 
 
-
+- show hidden files by default
 
 - Set up desktop switching short cuts
 
