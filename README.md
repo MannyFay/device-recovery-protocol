@@ -5,12 +5,12 @@ I've made it public, that I can read and use it from everywhere just by using a 
 
 It is good to always have a second device that is made ready for your work.
 
-Next Steps:
-[ ] Document all required settings
-[ ] Try to create recovery playbook with Ansible
-[ ] Try to create device set up playbook with Ansible like for Ubuntu
-[ ] Put everything you can to password manager, GitHub and GitLab
-[ ] Never beeing fucked again !!!
+Next Steps:  
+[ ] Document all required settings  
+[ ] Try to create recovery playbook with Ansible  
+[ ] Try to create device set up playbook with Ansible like for Ubuntu  
+[ ] Put everything you can to password manager, GitHub and GitLab  
+[ ] Never beeing fucked again !!!  
 
 
 ## macOS
