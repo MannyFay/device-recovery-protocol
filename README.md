@@ -199,8 +199,8 @@ If a step doesn't work, proceed with the next step.
   - [ ]     - "defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor 'Automatic Keyboard Enabled' -bool"
 - [ ] Mouse:
   - ✅ Tracking speed -> 100 %
-  - [ ] Double-Click Speed -> 90 %
-  - [ ] Scrolling Speed -> 100 %
+  - ✅ Double-Click Speed -> 90 %
+  - ✅ Scrolling Speed -> 100 %
   - [ ] Advanced: Pointer Accelleration -> 'On'
 - [ ] Trackpad:
   - ✅ Tracking speed -> 100 %
@@ -221,13 +221,13 @@ If a step doesn't work, proceed with the next step.
 
 
 
-Create a cron that deletes every day local time machine backups and turn TM on again.
+- ✅ Create a cron that deletes every day local time machine backups and turn TM on again.
 Check users volume for case sensitivity
 
 one sound setting needs the password, why? execution has alreade all previleges.
 
 
-- [ ] Remove default apps from dock
+- ✅ Remove default apps from dock
 - [ ] Add needed apps to dock
  
 
@@ -243,7 +243,7 @@ one sound setting needs the password, why? execution has alreade all previleges.
 - [ ] Safari
   - [ ] Set google as start page
   - [ ] is it possible to install extensions with scripts?
-  - [ ] Show bookmarks bar
+  - ✅ Show bookmarks bar
         - defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 
