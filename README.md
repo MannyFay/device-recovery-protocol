@@ -201,7 +201,10 @@ If a step doesn't work, proceed with the next step.
 
 
 
+Create a cron that deletes every day local time machine backups and turn TM on again.
+Check users volume for case sensitivity
 
+one sound setting needs the password, why? execution has alreade all previleges.
 
 
 - [ ] Remove default apps from dock
