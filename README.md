@@ -190,8 +190,8 @@ If a step doesn't work, proceed with the next step.
   - [ ] Verification Codes:
     - [ ] Delete After Use -> 'On'
 - [ ] Internet Accounts:
-- [ ] Game Center:
-  - [ ] Game Center -> 'Off'
+- ✅ Game Center:
+  - ✅ Game Center -> 'Off'
 - [ ] Wallet & Apple Pay:
   - [ ] Add Orders to Wallet -> 'Off'
 - [ ] Keyboard:
