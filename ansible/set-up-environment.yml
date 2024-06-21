@@ -9,6 +9,7 @@
     - include_tasks: tasks/system-settings/accessibility.yml
     - include_tasks: tasks/system-settings/airdrop-handoff.yml
     - include_tasks: tasks/system-settings/appearance.yml
+    #- include_tasks: tasks/system-settings/control-centre.yml - doesn't work properly by now.
     - include_tasks: tasks/system-settings/dock.yml
     - include_tasks: tasks/system-settings/notifications.yml
     - include_tasks: tasks/system-settings/screen-time.yml
