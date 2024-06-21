@@ -84,12 +84,12 @@ If a step doesn't work, proceed with the next step.
   - ✅ Turn 'AirDrop' to 'No One'
 - ✅ General - Time Machine:
   - ✅ Set on 'When triggered manually'
-- [ ] Appearance:
-  - [ ] Set 'Appearance' on 'Dark'
-  - [ ] Set 'Accent colour' on 'Pink'
-  - [ ] Turn off 'Allow wallpaper tinting in windows'
-  - [ ] Set 'Show scroll bars' on 'When scrolling'
-  - [ ] Set 'Click in the scroll bar to' on 'Jump to the spot that's clicked'
+- ✅ Appearance:
+  - ✅ Set 'Appearance' on 'Dark'
+  - ✅ Set 'Accent colour' on 'Pink'
+  - ✅ Turn off 'Allow wallpaper tinting in windows'
+  - ✅ Set 'Show scroll bars' on 'When scrolling'
+  - ✅ Set 'Click in the scroll bar to' on 'Jump to the spot that's clicked'
 - [ ] Accessibility:
   - [ ] Turn off 'Voice Over'
   - [ ] Display:
