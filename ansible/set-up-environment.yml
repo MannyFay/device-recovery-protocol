@@ -20,3 +20,4 @@
     - include_tasks: tasks/system-settings/siri.yml
     - include_tasks: tasks/system-settings/sounds.yml
     - include_tasks: tasks/system-settings/time-machine.yml
+    - include_tasks: tasks/system-settings/wallet-applepay.yml
