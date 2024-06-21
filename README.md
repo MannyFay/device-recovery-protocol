@@ -236,8 +236,8 @@ one sound setting needs the password, why? execution has alreade all previleges.
 - [ ] Turn off trackpad if mouse is connected
 
 
-- [ ] Notificate if a disk gets less then 10 GB free disk space
-- [ ] Delete bin every 14 days automatically
+- ✅ Notificate if a disk gets less then 10 GB free disk space
+- ✅ Delete bin every 14 days automatically
  
 
 - [ ] Safari
