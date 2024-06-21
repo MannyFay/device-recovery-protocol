@@ -110,10 +110,13 @@ If a step doesn't work, proceed with the next step.
   - [ ] Keyboard Brightness -> 'Show in Menu Bar'
   - [ ] Clock Show Date -> 'Always'
   - [ ] Spotlight -> 'Don't show in Menu Bar'
+        - - "sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search"
   - [ ] Siri -> 'Don't show in Menu Bar'
+        - - "sudo defaults write /System/Library/LaunchAgents/com.apple.Siri.plist Disabled -bool true"
   - [ ] Time Machine -> 'Show in Menu Bar'
   - [ ] Automatically hide and show the menu bar: 'Always'
   - [ ] Recent documents, applications and servers: 'None'
+        - - "defaults delete ~/Library/Preferences/com.apple.sidebarlists.plist NetworkRecentServersList"
 - [ ] Siri & Spotlight:
   - [ ] Ask Siri: 'Off'
 - [ ] Privacy & Security:
