@@ -1,0 +1,11 @@
+- name: Set Up Displays
+  become: true
+  become_user: "{{ username }}"
+  command: "{{ item }}"
+  with_items:
+    - "defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor 'Automatic Display Enabled' -bool false"
+    - "defaults write /Library/Preferences/com.apple.CoreDisplay 'CBTrueToneFeatureEnabled' -bool false"
+    - "defaults write com.apple.spaces spans-displays -bool true"
+    - "defaults write com.apple.systempreferences QLDisplayResolutionOn -bool true"
+    - "killall Dock"
+    - "killall cfprefsd"
