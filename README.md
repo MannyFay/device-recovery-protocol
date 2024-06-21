@@ -91,10 +91,10 @@ If a step doesn't work, proceed with the next step.
   - ✅ Set 'Show scroll bars' on 'When scrolling'
   - ✅ Set 'Click in the scroll bar to' on 'Jump to the spot that's clicked'
 - [ ] Accessibility:
-  - [ ] Turn off 'Voice Over'
-  - [ ] Display:
-    - [ ] Turn on 'Reduce motion'
-    - [ ] Turn on 'Reduce transparancy'
+  - ✅ Turn off 'Voice Over'
+  - ✅ Display:
+    - ✅ Turn on 'Reduce motion'
+    - ✅ Turn on 'Reduce transparancy'
     - [ ] Set on 'Display contrast' a very little
 - [ ] Control Centre:
   - [ ] Wi-Fi -> 'Show in Menu Bar'
@@ -196,7 +196,7 @@ If a step doesn't work, proceed with the next step.
   
 - [ ] Set dark mode to menu bar
 - [ ] Auto hide menu bar
-- [ ] Increase key responsiveness speed
+- [ ] Increase key responsiveness key stroke speed
 
 
 
@@ -224,9 +224,10 @@ one sound setting needs the password, why? execution has alreade all previleges.
   - [ ] Set google as start page
   - [ ] is it possible to install extensions with scripts?
   - [ ] Show bookmarks bar
+        - defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 
-
+- [ ] set timers for work and morning
 
 **have a look on Migration Assistant in Settings > General**
 Maybe this works, if you didn't have erased the users partition before?!?
