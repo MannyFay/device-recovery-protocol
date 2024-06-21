@@ -196,6 +196,7 @@ If a step doesn't work, proceed with the next step.
   - ✅ Add Orders to Wallet -> 'Off'
 - [ ] Keyboard:
   - [ ] Set keyboard languages on US and DE
+  - [ ]     - "defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor 'Automatic Keyboard Enabled' -bool"
 - [ ] Mouse:
   - [ ] Tracking speed -> 100 %
   - [ ] Double-Click Speed -> 90 %
@@ -250,4 +251,10 @@ one sound setting needs the password, why? execution has alreade all previleges.
 
 **have a look on Migration Assistant in Settings > General**
 Maybe this works, if you didn't have erased the users partition before?!?
+
+
+echo "Disable keyboard from automatically adjusting backlight brightness in low light? (y/n)"
+read -r response
+if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
+  sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Keyboard Enabled" -bool false
 
