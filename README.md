@@ -153,23 +153,33 @@ If a step doesn't work, proceed with the next step.
 - [ ] Wallpaper:
   - [ ] Set desktop background color on '#191B1C'
 - [ ] Lock Screen:
-  - [ ] Start Screen Saver when inactive -> 'Never'
+  - ✅ Start Screen Saver when inactive -> 'Never'
   - [ ] Turn display off on battery when inactive -> 'For 10 minutes'
+        - "pmset -b displaysleep 10"
   - [ ] Turn display off on power adapter when inactive -> 'For 10 minutes'
-  - [ ] Require password after screen saver begins or display is turned off -> 'Immediately'
+        - "pmset -c displaysleep 10"
+  - ✅ Require password after screen saver begins or display is turned off -> 'Immediately'
   - [ ] Show large clock -> 'Never'
+        - "defaults write /Library/Preferences/com.apple.loginwindow ShowClock -bool false"
   - [ ] Show username and photo -> 'Off'
+        - "defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool false"
   - [ ] Show password hints -> 'Off'
+        - "defaults write /Library/Preferences/com.apple.loginwindow RetriesUntilHint -int 0"
   - [ ] Show message when locked -> 'Off'
-  - [ ] Login window shows -> check 'Name and password'
+        - "defaults write /Library/Preferences/com.apple.loginwindow showLockMessage -bool false"
+  - [ ] not needed ..maybe Login window shows -> check 'Name and password'
+        - "defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true"
   - [ ] Show the Sleep, Restart and Shut Down buttons -> 'Off'
+        - "defaults write /Library/Preferences/com.apple.loginwindow PowerButtonSleepDisabled -bool true"
   - [ ] Accessibillity Options:
-    - [ ] VoiceOver -> 'Off'
-    - [ ] Zoom -> 'Off'
-    - [ ] Accessibillity Keyboard -> 'Off'
+    - ✅ VoiceOver -> 'Off'
+    - ✅ Zoom -> 'Off'
+    - ✅ Accessibillity Keyboard -> 'Off'
+          - "write com.apple.HIToolbox AppleEnabledInputSources -array-add '{"Bundle ID" = "com.apple.PressAndHold"; "InputSourceKind" = "Non Keyboard Input Method"; "KeyboardLayout Name" = "US";}'"
     - [ ] Sticky Keys -> 'Off'
     - [ ] Slow Keys -> 'Off'
     - [ ] Mouse Keys -> 'Off'
+          - "write com.apple.universalaccess mouseDriverCursorSize -int 0"
 - [ ] Touch ID & Password:
   - [ ] Use Touch ID to unlock your Mac -> 'Off'
   - [ ] Use Touch ID for fast user switching -> 'Off'
