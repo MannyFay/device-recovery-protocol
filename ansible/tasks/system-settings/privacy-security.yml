@@ -1,0 +1,12 @@
+- name: Set Up Privacy & Security
+  become: true
+  become_user: "{{ username }}"
+  command: "{{ item }}"
+  with_items:
+    - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
+    - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
+    - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.developer.plist Allowed -bool false"
+    - "sudo spctl --master-enable"
+    - "defaults write com.apple.Bluetooth iOSAccessibilityPairingMode -int 2"
+    - "fdesetup enable"
+  
