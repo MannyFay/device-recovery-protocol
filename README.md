@@ -192,8 +192,8 @@ If a step doesn't work, proceed with the next step.
 - [ ] Internet Accounts:
 - ✅ Game Center:
   - ✅ Game Center -> 'Off'
-- [ ] Wallet & Apple Pay:
-  - [ ] Add Orders to Wallet -> 'Off'
+- ✅ Wallet & Apple Pay:
+  - ✅ Add Orders to Wallet -> 'Off'
 - [ ] Keyboard:
   - [ ] Set keyboard languages on US and DE
 - [ ] Mouse:
