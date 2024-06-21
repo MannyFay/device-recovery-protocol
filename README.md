@@ -97,24 +97,24 @@ If a step doesn't work, proceed with the next step.
     - ✅ Turn on 'Reduce transparancy'
     - [ ] Set on 'Display contrast' a very little
 - [ ] Control Centre:
-  - [ ] Wi-Fi -> 'Show in Menu Bar'
-  - [ ] Bluetooth -> 'Show in Menu Bar'
-  - [ ] AirDrop -> 'Show in Menu Bar'
-  - [ ] Focus -> 'Show in Menu Bar'
-  - [ ] Stage Manager -> 'Don't show in Menu Bar'
-  - [ ] Sreen Mirroring -> 'Show in Menu Bar'
-  - [ ] Display -> 'Show in Menu Bar'
-  - [ ] Sound -> 'Show in Menu Bar'
-  - [ ] Now Playing -> 'Don't show in Menu Bar'
-  - [ ] Battery -> 'Don't show in Menu Bar' (AlDente will do this)
-  - [ ] Keyboard Brightness -> 'Show in Menu Bar'
-  - [ ] Clock Show Date -> 'Always'
+  - ✅ Wi-Fi -> 'Show in Menu Bar'
+  - ✅ Bluetooth -> 'Show in Menu Bar'
+  - ✅ AirDrop -> 'Show in Menu Bar'
+  - ✅ Focus -> 'Show in Menu Bar'
+  - ✅ Stage Manager -> 'Don't show in Menu Bar'
+  - ✅ Sreen Mirroring -> 'Show in Menu Bar'
+  - ✅ Display -> 'Show in Menu Bar'
+  - ✅ Sound -> 'Show in Menu Bar'
+  - ✅ Now Playing -> 'Don't show in Menu Bar'
+  - ✅ Battery -> 'Don't show in Menu Bar' (AlDente will do this)
+  - ✅ Keyboard Brightness -> 'Show in Menu Bar'
+  - ✅ Clock Show Date -> 'Always'
   - [ ] Spotlight -> 'Don't show in Menu Bar'
-        - - "sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search"
-  - [ ] Siri -> 'Don't show in Menu Bar'
+        -> crap because you have to disable system integrity - "sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search"
+  - ✅ Siri -> 'Don't show in Menu Bar'
         - - "sudo defaults write /System/Library/LaunchAgents/com.apple.Siri.plist Disabled -bool true"
-  - [ ] Time Machine -> 'Show in Menu Bar'
-  - [ ] Automatically hide and show the menu bar: 'Always'
+  - ✅ Time Machine -> 'Show in Menu Bar'
+  - ✅ Automatically hide and show the menu bar: 'Always'
   - [ ] Recent documents, applications and servers: 'None'
         - - "defaults delete ~/Library/Preferences/com.apple.sidebarlists.plist NetworkRecentServersList"
 - ✅ Siri & Spotlight:
