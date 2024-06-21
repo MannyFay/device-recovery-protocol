@@ -12,6 +12,7 @@
     #- include_tasks: tasks/system-settings/control-centre.yml - doesn't work properly by now.
     #- include_tasks: tasks/system-settings/displays.yml - doesn't work properly by now.
     - include_tasks: tasks/system-settings/dock.yml
+    - include_tasks: tasks/system-settings/game-center.yml
     - include_tasks: tasks/system-settings/lock-screen.yml
     - include_tasks: tasks/system-settings/notifications.yml
     #- include_tasks: tasks/system-settings/privacy-security.yml - doesn't work properly by now.
