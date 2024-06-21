@@ -198,25 +198,25 @@ If a step doesn't work, proceed with the next step.
   - [ ] Set keyboard languages on US and DE
   - [ ]     - "defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor 'Automatic Keyboard Enabled' -bool"
 - [ ] Mouse:
-  - [ ] Tracking speed -> 100 %
+  - ✅ Tracking speed -> 100 %
   - [ ] Double-Click Speed -> 90 %
   - [ ] Scrolling Speed -> 100 %
   - [ ] Advanced: Pointer Accelleration -> 'On'
 - [ ] Trackpad:
-  - [ ] Tracking speed -> 100 %
+  - ✅ Tracking speed -> 100 %
   - [ ] Silent clicking -> 'On'
   - [ ] Tap to click -> 'On'
 
 
-- [ ] turn of writing . if pressing two times space
-- [ ] show hidden files by default
+- ✅ turn of writing . if pressing two times space
+- ✅ show hidden files by default
 
 - [ ] Set up desktop switching short cuts
 
   
-- [ ] Set dark mode to menu bar
-- [ ] Auto hide menu bar
-- [ ] Increase key responsiveness key stroke speed
+- ✅ Set dark mode to menu bar
+- ✅ Auto hide menu bar
+- ✅ Increase key responsiveness key stroke speed
 
 
 
