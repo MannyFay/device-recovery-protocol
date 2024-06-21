@@ -130,6 +130,7 @@ If a step doesn't work, proceed with the next step.
   - ✅ Allow applications downloaded from 'App Store and identified developers'
   - ✅ Allow accessories to connect: 'Ask for New Accessories'
   - [ ] FileVault -> 'On'
+        - "fdesetup enable"
 - ✅ Desktop & Dock:
   - ✅ Set Dock size on 30 %
   - ✅ Turn off 'Magnification'
@@ -144,9 +145,11 @@ If a step doesn't work, proceed with the next step.
   - ✅ Disable all 'Hot corners'
 - [ ] Displays:
   - [ ] Turn off 'automatically adjust brightnes'
+        - "defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor 'Automatic Display Enabled' -bool false"
   - [ ] Turn off 'True Tone'
-  - [ ] Set main display on 'more space'
-  - [ ] Show resolutions as list -> 'On'
+        - "defaults write /Library/Preferences/com.apple.CoreDisplay 'CBTrueToneFeatureEnabled' -bool false"
+  - ✅ Set main display on 'more space'
+  - ✅ Show resolutions as list -> 'On'
 - [ ] Wallpaper:
   - [ ] Set desktop background color on '#191B1C'
 - [ ] Lock Screen:
