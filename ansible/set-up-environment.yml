@@ -6,6 +6,7 @@
     username: "manny"
 
   tasks:
+    - include_tasks: tasks/system-settings/accessibility.yml
     - include_tasks: tasks/system-settings/airdrop-handoff.yml
     - include_tasks: tasks/system-settings/appearance.yml
     - include_tasks: tasks/system-settings/dock.yml
