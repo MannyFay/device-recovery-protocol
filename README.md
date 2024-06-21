@@ -117,15 +117,18 @@ If a step doesn't work, proceed with the next step.
   - [ ] Automatically hide and show the menu bar: 'Always'
   - [ ] Recent documents, applications and servers: 'None'
         - - "defaults delete ~/Library/Preferences/com.apple.sidebarlists.plist NetworkRecentServersList"
-- [ ] Siri & Spotlight:
-  - [ ] Ask Siri: 'Off'
+- ✅ Siri & Spotlight:
+  - ✅ Ask Siri: 'Off'
 - [ ] Privacy & Security:
   - [ ] Analytics & Improvements:
     - [ ] Share Mac Analytics -> 'Off'
+          - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
     - [ ] Improve Siri & Dictation -> 'Off'
+          - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
     - [ ] Share with app developers -> 'Off'
-  - [ ] Allow applications downloaded from 'App Store and identified developers'
-  - [ ] Allow accessories to connect: 'Ask for New Accessories'
+          - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.developer.plist Allowed -bool false"
+  - ✅ Allow applications downloaded from 'App Store and identified developers'
+  - ✅ Allow accessories to connect: 'Ask for New Accessories'
   - [ ] FileVault -> 'On'
 - ✅ Desktop & Dock:
   - ✅ Set Dock size on 30 %
