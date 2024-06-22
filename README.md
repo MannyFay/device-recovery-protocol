@@ -229,7 +229,8 @@ one sound setting needs the password, why? execution has alreade all previleges.
 
 - ✅ Remove default apps from dock
 - [ ] Add needed apps to dock
- 
+- [ ] Remove the crappy motion picture from login screen
+- [ ] 
 
 
  
@@ -270,4 +271,16 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
 - [ ] Add the rest of the stuff of the list above
 - [ ] Restart device
 
+---
+<br>
 
+## Never Beeing Fucked Again Protocol
+- [ ] Create playbooks for arch linux
+- [ ] Create playbooks for windows 11
+- [ ] Combine all Ansible projects
+- [ ] Ensure project is public on GitHub - Absolutely protect main branch
+- [ ] Think about an server to deploy Ansible setup
+- [ ] Buy 9 weather/shock/anything resistent 4 GB USB sticks with USB & USB-C connector
+- [ ] Set up the sticks with bootable arch linux (because it runs on all, excl. ARM, devices)
+- [ ] But 9 weather/shock/anything/encryptable resistant with huge capacity for stuff
+- [ ] Load all the needed stuff on them and encrypt them
