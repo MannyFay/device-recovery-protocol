@@ -115,21 +115,21 @@ If a step doesn't work, proceed with the next step.
         - - "sudo defaults write /System/Library/LaunchAgents/com.apple.Siri.plist Disabled -bool true"
   - ✅ Time Machine -> 'Show in Menu Bar'
   - ✅ Automatically hide and show the menu bar: 'Always'
-  - [ ] Recent documents, applications and servers: 'None'
+  - ✅ Recent documents, applications and servers: 'None'
         - - "defaults delete ~/Library/Preferences/com.apple.sidebarlists.plist NetworkRecentServersList"
 - ✅ Siri & Spotlight:
   - ✅ Ask Siri: 'Off'
-- [ ] Privacy & Security:
-  - [ ] Analytics & Improvements:
-    - [ ] Share Mac Analytics -> 'Off'
+- ✅ Privacy & Security:
+  - ✅ Analytics & Improvements:
+    - ✅ Share Mac Analytics -> 'Off'
           - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
-    - [ ] Improve Siri & Dictation -> 'Off'
+    - ✅ Improve Siri & Dictation -> 'Off'
           - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
-    - [ ] Share with app developers -> 'Off'
+    - ✅ Share with app developers -> 'Off'
           - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.developer.plist Allowed -bool false"
   - ✅ Allow applications downloaded from 'App Store and identified developers'
   - ✅ Allow accessories to connect: 'Ask for New Accessories'
-  - [ ] FileVault -> 'On'
+  - ✅ FileVault -> 'On'
         - "fdesetup enable"
 - ✅ Desktop & Dock:
   - ✅ Set Dock size on 30 %
@@ -144,7 +144,7 @@ If a step doesn't work, proceed with the next step.
   - ✅ Automatically rearrange Spaces based on most recent use -> 'Off'
   - ✅ Disable all 'Hot corners'
 - [ ] Displays:
-  - [ ] Turn off 'automatically adjust brightnes'
+  - ✅ Turn off 'automatically adjust brightnes'
         - "defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor 'Automatic Display Enabled' -bool false"
   - [ ] Turn off 'True Tone'
         - "defaults write /Library/Preferences/com.apple.CoreDisplay 'CBTrueToneFeatureEnabled' -bool false"
@@ -181,10 +181,10 @@ If a step doesn't work, proceed with the next step.
     - [ ] Mouse Keys -> 'Off'
           - "write com.apple.universalaccess mouseDriverCursorSize -int 0"
 - [ ] Touch ID & Password:
-  - [ ] Use Touch ID to unlock your Mac -> 'Off'
+  - ✅ Use Touch ID to unlock your Mac -> 'Off'
   - [ ] Use Touch ID for fast user switching -> 'Off'
-- [ ] Users & Groups:
-  - [ ] Guest User -> 'Off'
+- ✅ Users & Groups:
+  - ✅ Guest User -> 'Off'
 - [ ] Passwords:
   - [ ] Use passwords and passkeys from Keychain -> 'Off'
   - [ ] Verification Codes:
@@ -257,4 +257,17 @@ echo "Disable keyboard from automatically adjusting backlight brightness in low 
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Keyboard Enabled" -bool false
+
+---
+<br>
+
+## To Do
+- [ ] Create directory structure
+- [ ] Set up SSH
+- [ ] Clone Repos
+- [ ] Run all Homebrew stuff
+- [ ] Set up app configurations
+- [ ] Add the rest of the stuff of the list above
+- [ ] Restart device
+
 
