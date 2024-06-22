@@ -14,4 +14,3 @@
     - "defaults write com.fujitsu.scansnap.scloudwatch CKDNDOverride -bool true"
     - "defaults write com.apple.tips CKDNDOverride -bool true"
     - "defaults write com.apple.Passbook CKDNDOverride -bool true"
-    

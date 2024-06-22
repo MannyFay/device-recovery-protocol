@@ -1,0 +1,8 @@
+- name: Remove nvim directory from ~/.config if it exists already
+  become: true
+  command: rm -rf "{{ lookup('env', 'HOME') }}/.config/nvim"
+
+- name: Link Own Neovim Configuration
+  become: true
+  become_user: "{{ username }}"
+  command: ln -s "{{ personal_github_directory }}/nvim" "{{ lookup('env', 'HOME') }}/.config/nvim"

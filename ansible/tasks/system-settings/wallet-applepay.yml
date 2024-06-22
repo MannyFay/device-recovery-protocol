@@ -4,4 +4,3 @@
   command: "{{ item }}"
   with_items:
     - "defaults write com.apple.PassKit canAddPaymentPass -bool false"
-  

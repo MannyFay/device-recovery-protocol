@@ -1,6 +1,6 @@
-- name: Set Up Game Center
+- name: Set Up Keyboard 
   become: true
   become_user: "{{ username }}"
   command: "{{ item }}"
   with_items:
-    - "defaults write com.apple.gamed Disabled -bool true"
+    - "defaults write -g com.apple.trackpad.scaling 2.0"

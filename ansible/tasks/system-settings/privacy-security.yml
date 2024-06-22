@@ -1,12 +1,17 @@
 - name: Set Up Privacy & Security
-  become: true
   become_user: "{{ username }}"
+  become: true
   command: "{{ item }}"
   with_items:
-    - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
-    - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.configuration.plist Allowed -bool false"
-    - "defaults write /Library/Application\ Support/com.apple.TCC/TCC.db com.apple.TCC.developer.plist Allowed -bool false"
     - "sudo spctl --master-enable"
     - "defaults write com.apple.Bluetooth iOSAccessibilityPairingMode -int 2"
-    - "fdesetup enable"
-  
+    - "sudo bioutil -w -u 0"
+
+- name: Change Mode of Privacy & Security Script to an Executable
+  become_user: "{{ username }}"
+  become: true
+  command: chmod +x "{{ personal_github_directory }}/ansible/scripts/system-settings/privacy_security.sh"
+
+- name: Run Privacy & Security Script
+  become: true
+  shell: "{{ personal_github_directory }}/ansible/scripts/system-settings/privacy_security.sh"

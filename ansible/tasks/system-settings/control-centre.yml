@@ -20,3 +20,12 @@
     - "defaults write -g NSRecentDocumentsLimit 0"
     - "killall ControlCenter"
     - "killall SystemUIServer"
+
+- name: Change Mode of Control Centre Script to an Executable
+  become_user: "{{ username }}"
+  become: true
+  command: chmod +x "{{ personal_github_directory }}/ansible/scripts/system-settings/control_centre.sh"
+
+- name: Run Control Centre Script
+  become: true
+  shell: "{{ personal_github_directory }}/ansible/scripts/system-settings/control_centre.sh"
