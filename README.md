@@ -5,6 +5,16 @@ I've made it public, that I can read and use it from everywhere just by using a 
 
 It is good to always have a second device that is made ready for your work.
 
+# Listen !
+This is created under high pressure, the Ansible playbooks too. I know, they can be much better!!!  
+But I was not able to work after the accident on my device, so I've had to be so fast as possible to get this done.  
+
+**I'm sorry!!!!.....not sorry!**
+
+---
+<br>
+
+
 Next Steps:  
 - ✅ Document all required settings  
 - [ ] Try to create recovery playbook with Ansible
