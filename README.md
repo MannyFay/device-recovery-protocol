@@ -266,7 +266,7 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
 - [ ] Set up SSH
 - [ ] Clone Repos
 - [ ] Run all Homebrew stuff
-- [ ] Set up app configurations
+- [ ] Set up app configurations, symlinks, etc.
 - [ ] Add the rest of the stuff of the list above
 - [ ] Restart device
 
