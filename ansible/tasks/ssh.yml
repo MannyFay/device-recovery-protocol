@@ -6,12 +6,14 @@
     state: directory
 
 - name: Copy private SSH key
+  become_user: "{{ username }}"
   copy:
     src: "{{ ssh_key_source }}"
     dest: "{{ localhost_ssh_key_destination }}"
     mode: 0600
 
 - name: Copy public SSH key
+  become_user: "{{ username }}"
   copy:
     src: "{{ ssh_key_source }}.pub"
     dest: "{{ localhost_ssh_key_destination }}.pub"
