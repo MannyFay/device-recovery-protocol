@@ -1,4 +1,4 @@
-- name: Create File System
+- name: Create Directories 
   ansible.builtin.file:
     path: "{{ item }}"
     state: directory
@@ -16,3 +16,4 @@
     - "{{ lookup('env', 'HOME') }}/work/vds/github"
     - "{{ lookup('env', 'HOME') }}/work/fitcrew"
     - "{{ lookup('env', 'HOME') }}/work/fitcrew/gitlab"
+  when: os_type in ["macos"]

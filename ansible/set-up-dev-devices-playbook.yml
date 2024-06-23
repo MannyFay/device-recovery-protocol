@@ -42,7 +42,7 @@
     #- include_tasks: tasks/app-settings/browsers/safari.yml
     #- include_tasks: tasks/app-settings/browsers/webkit.yml
 
-    - include_tasks: tasks/file-system.yml
+    #- include_tasks: tasks/file-system.yml
     #- include_tasks: tasks/ssh.yml
     #- include_tasks: tasks/git.yml
     #- include_tasks: tasks/alacritty.yml
@@ -50,4 +50,5 @@
     #- include_tasks: tasks/zsh.yml
     #- include_tasks: tasks/neovim.yml
 
-
+  roles:
+    - file-system
