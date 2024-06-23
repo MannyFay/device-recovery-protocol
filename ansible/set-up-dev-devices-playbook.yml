@@ -52,4 +52,5 @@
 
   roles:
     - file-system
+    - git
     - neovim
