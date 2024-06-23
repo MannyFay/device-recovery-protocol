@@ -6,4 +6,3 @@ ubuntu_dev_device ansible_connection=local os_type=ubuntu
 [dev_devices:vars]
 ansible_user=manny
 ansible_become=yes
-ansible_become_user=root
