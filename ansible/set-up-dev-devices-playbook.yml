@@ -1,8 +1,7 @@
 ---
 
-- name: Set Up Dev Devices
+- name: ---> Set Up Dev Devices
   hosts: dev_devices
-  become: true
   gather_facts: no
   vars:
     username: "manny"
