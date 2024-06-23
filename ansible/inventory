@@ -1,0 +1,2 @@
+[dev_devices]
+macos_dev_device ansible_connection=local os_type=macos
