@@ -16,6 +16,11 @@ All hosts at once:
 ansible-playbook set-up-dev-devices-playbook.yml --vault-password-file ./passwd.txt --ask-become-pass -i inventory
 ```
 
+Arch:
+```shell
+ansible-playbook set-up-dev-devices-playbook.yml --vault-password-file ./passwd.txt --ask-become-pass -i inventory --limit 'arch_dev_device'
+```
+
 Ubuntu:
 ```shell
 ansible-playbook set-up-dev-devices-playbook.yml --vault-password-file ./passwd.txt --ask-become-pass -i inventory --limit 'ubuntu_dev_device'
